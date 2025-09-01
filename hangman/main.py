@@ -9,7 +9,7 @@ def display_man(wrong_guesses):
         print(line)
     print("________________________")
 
-# Print out the hit likt this "_ _ _ _"
+# Print out the hit like this "_ _ _ _"
 def display_hint(hint):
     print(" ".join(hint))
 
