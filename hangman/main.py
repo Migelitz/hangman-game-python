@@ -1,5 +1,5 @@
 import random
-from hangman_words import fruits_words
+from hangman_words import fruit_words
 from hangman_art import hangman_art
 
 # Display the hangman and print out from Hangman_Art
