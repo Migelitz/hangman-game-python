@@ -18,7 +18,7 @@ def display_answer(answer):
     print(" ".join(answer))
 
 def main():
-    answer = random.choice(fruits_words)
+    answer = random.choice(fruit_words)
     hint = ["_"] * len(answer)
     wrong_guesses = 0
     guessed_letters = set()
