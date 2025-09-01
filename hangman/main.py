@@ -58,13 +58,16 @@ def main():
             is_running = False
             
 if __name__ == '__main__':
-    main()
+    playing = True
     
-
-play_again = input("Play Again? (Y/N): ").upper()
-
-while play_again != "N":
-    main()
-    play_again = input("Play Again? (Y/N): ").upper()
+    while playing:
+        main()
+        play_again = input("Play Again? (N to quit): ").upper()
+        
+        if play_again == "N":
+            print("Thanks for playing!")
+            print("Exiting the program...")
+            playing = False
+                
+            
     
-exit("Goodbye!")
