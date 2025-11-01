@@ -2,6 +2,10 @@
 
 A command-line interface (CLI) Hangman game built with Python that features visual representations of the hangman as you play.
 
+##  Demo
+
+https://github.com/user-attachments/assets/9bd7887f-3288-45aa-8eed-4267dd26e078
+
 ## Description
 
 This classic Hangman game challenges players to guess a hidden word one letter at a time. Each incorrect guess brings the hangman closer to completion. The game currently uses fruit names as the word bank.
